@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond&display=swap");
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+}
+h1{
+  font-size: 3.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  color: #66BFBF;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+p{
+  font-family: 'Chivo Mono', monospace;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+
+#con {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5em;
+  text-align: justify;
+  padding: 0 20vh 0 20vh;
+}
+.sign {
+  width: 30vw;
+  height: auto;
+}
+#breaker {
+  
+  width: 100px; /* Change it accordingly */
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 5px solid #0d2604;
+}
+#image {
+  display: block;
+  max-width: 75%;
+  float: right;
+
+}
+
+#tag {
+  text-align: center;
+  align-self: center;
+  margin: 0 5vh 0 5vh;
+  font-size: 4em;
+}
+@media (max-width: 1250px) {
+  #image {
+    max-width: 300px;
+    height: auto;
+  }
+}
+.wrapper {
+  display: flex;
+  flex-flow: row no-wrap;
+}
+@media (max-width: 700px) {
+  #tag {
+    margin: 0 1.3vh 0 1.3vh;
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 560px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #con {
+    font-size: 1em;
+    padding: 0 1vh 0 1vh;
+  }
+  #image {
+    margin-left: 8vh;
+    max-width: 70%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 250px) {
+  #image {
+    margin-left: 2vh;
+  }
+  #title {
+    font-size: 1.5em;
+  }
+  #tag {
+    font-size: 1em;
+  }
+  figcaption {
+    font-size: x-small;
+  }
+}
+@-ms-viewport {
+  width: device-width;
+}
+.code{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.analysis{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 50px; 
+}
+.cd{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.tp{
+  background-color: white;
+  position: relative;
+  padding-top: 100px;
+}
+.top{
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.mid{
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.mid2{
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.cd2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 50px; 
+}
+.bot{
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.bot2{
+  background-color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.cd3{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
